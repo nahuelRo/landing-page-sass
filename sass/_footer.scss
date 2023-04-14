@@ -1,0 +1,41 @@
+.section-image{
+  margin-top: 4rem;
+  width: 100%;
+  height: 20vh;
+  background: url("../img/footer.jpg") center;
+  background-size: cover;
+
+
+  &__container {
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.footer {
+  margin: 0 auto;
+  width: 50%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__text {
+    color: $font-color;
+  }
+}
+
+.footer-links__link {
+  font-weight: 600;
+  color: $font-color;
+  margin-left: 5px;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}

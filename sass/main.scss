@@ -1,0 +1,11 @@
+@import "config";
+@import "header";
+@import "_main";
+@import "explore";
+@import "journal";
+@import "footer";
+
+body {
+  background-color: #2F323A;
+  font-family: 'Roboto', sans-serif;
+}

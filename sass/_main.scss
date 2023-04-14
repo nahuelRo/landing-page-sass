@@ -1,0 +1,39 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    &__title {
+      font-size: 70px;
+      font-weight: regular;
+      color: $font-color;
+    }
+
+    &__paragraph {
+      font-size: 20px;
+      color: $font-color;
+    }
+  }
+}

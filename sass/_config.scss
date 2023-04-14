@@ -1,0 +1,27 @@
+// Variables
+$primary-color: #DEBAC0;
+$font-color: #ffffff;
+
+// Reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Mixings
+
+@mixin centerTexts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+@mixin flexEnd {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
